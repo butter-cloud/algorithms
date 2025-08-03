@@ -45,3 +45,28 @@ if __name__ == '__main__':
     print("방문 결과: ")
     for row in visited:
         print(row)
+
+
+def count_islands(grid):
+    n, m = len(grid), len(grid[0])
+    visited = [[False] * m for _ in range(n)]
+
+    count = 0
+    for i in range(n):
+        for j in range(m):
+            if grid[i][j] == 1 and not visited[i][j]:
+                dfs(grid, i, j, visited)
+                print(f"새 섬 발견 at ({i}, {j})")
+                count += 1
+    return count
+
+
+if __name__ == '__main__':
+    grid = [
+        [1, 1, 0, 0],
+        [1, 0, 0, 1],
+        [0, 0, 1, 1],
+        [0, 0, 0, 0]
+    ]
+
+    print("섬의 개수:", count_islands(grid))  # 출력: 3
