@@ -69,4 +69,4 @@ if __name__ == '__main__':
         [0, 0, 0, 0]
     ]
 
-    print("섬의 개수:", count_islands(grid))  # 출력: 3
+    print("섬의 개수:", count_islands(grid))  # 출력: 2
