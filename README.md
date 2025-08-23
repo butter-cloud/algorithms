@@ -5,19 +5,21 @@
 
 📂 Array / List
 
-📚 Stack ✅
+📚 Stack
 
-📬 Queue ✅
+📬 Queue
 
 🔑 Hash / Dictionary / Set
 
+
 2. 🔍 탐색 알고리즘 (Search)
 
-🧗 DFS (Depth-First Search) ✅
+🧗 DFS (Depth-First Search)
 
 🌊 BFS (Breadth-First Search)
 
-🎯 이진 탐색 (Binary Search) ✅
+🎯 이진 탐색 (Binary Search)
+
 
 3. 🧮 정렬 알고리즘 (Sorting)
 
@@ -27,11 +29,13 @@
 
 ⚙️ Python 내장 정렬 (sorted, key)
 
+
 4. 🌀 재귀 & 백트래킹 (Recursion & Backtracking)
 
 🔁 재귀 기본 개념
 
 🧩 백트래킹 기초 (N-Queen, 순열, 조합 등)
+
 
 5. 🧪 완전탐색 & 시뮬레이션 (Brute-force & Simulation)
 
@@ -39,11 +43,13 @@
 
 🕹️ 구현 & 시뮬레이션 문제
 
+
 6. 💰 그리디 알고리즘 (Greedy)
 
 🧠 탐욕적 선택 조건
 
 🪙 대표 문제: 거스름돈, 회의실 배정
+
 
 7. 🧾 동적 계획법 (Dynamic Programming)
 
@@ -53,6 +59,7 @@
 
 🧮 대표 문제: 피보나치, 계단 오르기
 
+
 8. 🌐 그래프 (Graph)
 
 🧷 인접 행렬 / 인접 리스트
@@ -60,6 +67,7 @@
 🧭 위상 정렬
 
 🚇 최단 경로 (다익스트라, 플로이드 워셜)
+
 
 9. 🌲 트리 & 힙 & 우선순위큐
 
